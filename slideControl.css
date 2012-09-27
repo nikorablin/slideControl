@@ -1,0 +1,76 @@
+.slideControlContainer {
+	height:10px; 
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top, #efefef 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #efefef 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #efefef 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #efefef 0%,#ffffff 100%); /* IE10+ */
+	border:1px solid #ccc; box-shadow:inset 0 1px 0 #fff;
+	border-radius:7px;
+	cursor:pointer;
+	width:340px;
+	float:left;
+	margin:15px 10px 0 0;
+}
+	
+.slideControlFill {
+	background: #ea5507; /* Old browsers */
+	background: -moz-linear-gradient(top, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* IE10+ */
+	display:block;
+	height:100%;
+	border-radius:7px;
+	box-shadow:inset 0 1px 0 #F9D7C5;
+	position:relative;
+	z-index:1;
+	overflow:visible !important;
+}
+	
+.slideControlHandle {
+	display:block; 
+	background: #ea5507; /* Old browsers */
+	background: -moz-linear-gradient(top, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* IE10+ */
+	border-radius:15px;
+	border:5px solid #fff;
+	width:10px;
+	height:10px;
+	box-shadow:0 0 1px #555;
+	position:absolute;
+	right:0;
+	top:-5px;
+	z-index:5;
+	cursor:pointer;
+}
+
+.ieShadow {
+	zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=0,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=45,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=90,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=180,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=225,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=270,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=315,strength=1);
+	top:-8px;
+	right:-4px;
+}
+	
+.slideControlInput {
+	width:35px;
+	font-size:1.5em;
+	padding:3px 5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	text-align:center;
+	color:#333;
+	font-weight:bold;
+}

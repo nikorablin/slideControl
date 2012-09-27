@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "\0020"; 
+    display: block; 
+    height: 0; 
+    overflow: hidden;
+}
+
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; }
+
+body {font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#333;}
+
+h1 {font-size:2em; font-weight:bold;}
+
+h1 sup {font-size:0.4em; vertical-align:top; color:#aaa;}
+
+h2 {font-size:1.5em; font-weight:bold; margin-bottom:10px;}
+
+h3 {font-size:1em; font-weight:bold;}
+
+h3 a {color:#999; text-decoration:none;}
+
+h3 a:hover {text-decoration:underline;}
+
+.content {margin:20px auto; width:550px; padding:15px; border:1px solid #ccc; border-radius:5px; list-style-type:none;}
+
+li {margin:10px 0;}
+
+ul {list-style-type:none;}
+
+ul.options {margin-left:20px; margin-bottom:20px; list-style-type:disc;}
+
+ul.options li {margin:5px 0; font-size:0.85em;}
+	
+input.slideControl {width:35px; font-size:1.5em; padding:3px 5px; border:1px solid #ccc; border-radius:5px; text-align:center; color:#333; font-weight:bold;}
+	
+label {font-size:1em; font-weight:bold; float:left; width:145px; margin-top:10px;}
+
+p {font-size:0.85em; line-height:2em;}
+
+a {color:red; text-decoration:none; font-weight:bold; font-size:0.85em;}
+
+a:hover {text-decoration:underline;}
+
+/* code
+--------------------------------------------- */
+code, pre {
+	font-family: Consolas, Monaco, "Andale Mono", "Courier New", monospace;
+	font-size: 14px;
+	white-space: pre-wrap;
+	overflow:auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+code {
+    padding: 0 3px;
+    line-height: 23px;
+}
+
+pre {
+	display: block;
+	padding: 10px 15px;
+	margin: 15px 0;
+	background-color: #fafae6;
+	border: 1px solid #ddd;
+    white-space: pre;
+    overflow:auto;
+    overflow-y: hidden; *padding-bottom: 20px; /* Remove vertical scrollbar on Ie6, IE7 */
+}
+
+.str
+{
+    color: #EC7600;
+}
+.kwd
+{
+    color: #93C763;
+}
+.com
+{
+    color: #66747B;
+}
+.typ
+{
+    color: #678CB1;
+}
+.lit
+{
+    color: #FACD22;
+}
+.pun
+{
+    color: #F1F2F3;
+}
+.pln
+{
+    color: #F1F2F3;
+}
+.tag
+{
+    color: #8AC763;
+}
+.atn
+{
+    color: #E0E2E4;
+}
+.atv
+{
+    color: #EC7600;
+}
+.dec
+{
+    color: purple;
+}
+pre.prettyprint
+{
+    border: 0px solid #888;
+}
+ol.linenums
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.prettyprint {
+    background: #000;
+}
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9
+{
+    color: #555;
+    list-style-type: decimal;
+}
+li.L1, li.L3, li.L5, li.L7, li.L9 {
+    background: #111;
+}
+@media print
+{
+    .str
+    {
+        color: #060;
+    }
+    .kwd
+    {
+        color: #006;
+        font-weight: bold;
+    }
+    .com
+    {
+        color: #600;
+        font-style: italic;
+    }
+    .typ
+    {
+        color: #404;
+        font-weight: bold;
+    }
+    .lit
+    {
+        color: #044;
+    }
+    .pun
+    {
+        color: #440;
+    }
+    .pln
+    {
+        color: #000;
+    }
+    .tag
+    {
+        color: #006;
+        font-weight: bold;
+    }
+    .atn
+    {
+        color: #404;
+    }
+    .atv
+    {
+        color: #060;
+    }
+}
