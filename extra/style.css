@@ -54,7 +54,7 @@ ul.options {margin-left:20px; margin-bottom:20px; list-style-type:disc;}
 
 ul.options li {margin:5px 0; font-size:0.85em;}
 	
-input.slideControl {width:35px; font-size:1.5em; padding:3px 5px; border:1px solid #ccc; border-radius:5px; text-align:center; color:#333; font-weight:bold;}
+input.slideControl {width:40px; font-size:1.5em; padding:3px 5px; border:1px solid #ccc; border-radius:5px; text-align:center; color:#333; font-weight:bold;}
 	
 label {font-size:1em; font-weight:bold; float:left; width:145px; margin-top:10px;}
 

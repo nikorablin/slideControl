@@ -1,6 +1,13 @@
-slideControl jQuery Plugin
+slideControl
+================
 
-This plugin allows you to create nifty slider controls for text inputs.
+jQuery plugin that allows you to easily make sliders for range inputs
 
-Usage instructions can be found at
-http://nikorablin.com/slideControl/
+Read more here:
+http://nikorablin.com/slideControl
+
+Update 1.1
+================
+
++ Preserve original input object
++ Fixed highlighting issue
