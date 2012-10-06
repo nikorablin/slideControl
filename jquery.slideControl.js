@@ -1,6 +1,6 @@
 /*
  * slideControl - jQuery Plugin
- * version: 1.1 October 2012
+ * version: 1.2 October 2012
  * @requires jQuery v1.6 or later
  *
  * Examples at http://nikorablin.com/slideControl
@@ -38,6 +38,10 @@
 			var containerWidth = container.outerWidth() + 1;
 			var handleWidth = $(handle).outerWidth();
 			var offset = $(container).offset();
+			
+			$(window).resize(function() {
+				offset = $(container).offset();
+			})
 			
 			//adds shadow class to handle for IE <9
 			if (getInternetExplorerVersion() < 9 && getInternetExplorerVersion() > -1) {
