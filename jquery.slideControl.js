@@ -15,7 +15,8 @@
 		var defaults = {
 			speed: 400,
 			lowerBound: 1,
-			upperBound: 10
+			upperBound: 10,
+
 		};
 
 		var options = $.extend(defaults, options);
@@ -38,6 +39,8 @@
 			var containerWidth = container.outerWidth() + 1;
 			var handleWidth = $(handle).outerWidth();
 			var offset = $(container).offset();
+			var animate = function(value){$(fill).animate({ width: value + "%"}, o.speed);}
+
 			
 			$(window).resize(function() {
 				offset = $(container).offset();
@@ -53,9 +56,7 @@
 				e.preventDefault();
 				position = checkBoundaries(Math.round(((e.pageX - offset.left + handleWidth/2)/containerWidth)*100));
 				
-				$(fill).animate({
-					width: position + "%"
-				}, o.speed);
+				animate(position);
 				$(input).val(position/10);
 			});
 			
@@ -84,7 +85,7 @@
 					$(input).val(o.upperBound);
 				else if ($(this).val() < o.lowerBound)
 					$(input).val(o.lowerBound);
-				$(fill).width(value + "%");
+				animate(value);
 			});
 			
 		});
