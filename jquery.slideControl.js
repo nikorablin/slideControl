@@ -15,8 +15,7 @@
 		var defaults = {
 			speed: 400,
 			lowerBound: 1,
-			upperBound: 10,
-
+			upperBound: 10
 		};
 
 		var options = $.extend(defaults, options);
@@ -40,7 +39,6 @@
 			var handleWidth = $(handle).outerWidth();
 			var offset = $(container).offset();
 			var animate = function(value){$(fill).animate({ width: value + "%"}, o.speed);}
-
 			
 			$(window).resize(function() {
 				offset = $(container).offset();
